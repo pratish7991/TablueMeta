@@ -1,0 +1,167 @@
+[
+  {
+    "id": "dashboard_001",
+    "name": "Customer Churn Overview",
+    "description": "Shows churn trends, retention rates, and customer lifecycle",
+    "tags": [
+      "churn",
+      "retention",
+      "customers"
+    ],
+    "url": "https://tableau.company.com/views/churn"
+  },
+  {
+    "id": "dashboard_002",
+    "name": "Sales Performance Tracker",
+    "description": "Monitors sales performance across regions and products",
+    "tags": [
+      "sales",
+      "performance",
+      "revenue"
+    ],
+    "url": "https://tableau.company.com/views/sales"
+  },
+  {
+    "id": "dashboard_003",
+    "name": "Marketing Campaign Effectiveness",
+    "description": "Analyzes marketing campaigns and ROI across channels",
+    "tags": [
+      "marketing",
+      "campaign",
+      "roi"
+    ],
+    "url": "https://tableau.company.com/views/marketing"
+  },
+  {
+    "id": "dashboard_004",
+    "name": "Website Traffic Analysis",
+    "description": "Tracks visitor numbers, bounce rate, and traffic sources",
+    "tags": [
+      "web",
+      "traffic",
+      "analytics"
+    ],
+    "url": "https://tableau.company.com/views/traffic"
+  },
+  {
+    "id": "dashboard_005",
+    "name": "Inventory Management Overview",
+    "description": "Monitors stock levels, restocking needs, and turnover rates",
+    "tags": [
+      "inventory",
+      "supply chain",
+      "stock"
+    ],
+    "url": "https://tableau.company.com/views/inventory"
+  },
+  {
+    "id": "dashboard_006",
+    "name": "Employee Performance Dashboard",
+    "description": "Evaluates employee productivity and performance trends",
+    "tags": [
+      "hr",
+      "employee",
+      "performance"
+    ],
+    "url": "https://tableau.company.com/views/hr"
+  },
+  {
+    "id": "dashboard_007",
+    "name": "Financial KPI Overview",
+    "description": "Tracks revenue, expenses, and profit margins",
+    "tags": [
+      "finance",
+      "kpi",
+      "profit"
+    ],
+    "url": "https://tableau.company.com/views/finance"
+  },
+  {
+    "id": "dashboard_008",
+    "name": "Customer Satisfaction Monitor",
+    "description": "Analyzes NPS scores, reviews, and survey results",
+    "tags": [
+      "customer",
+      "satisfaction",
+      "feedback"
+    ],
+    "url": "https://tableau.company.com/views/csat"
+  },
+  {
+    "id": "dashboard_009",
+    "name": "Product Performance Insights",
+    "description": "Evaluates product sales, ratings, and return rates",
+    "tags": [
+      "product",
+      "sales",
+      "quality"
+    ],
+    "url": "https://tableau.company.com/views/products"
+  },
+  {
+    "id": "dashboard_010",
+    "name": "Supply Chain Efficiency",
+    "description": "Monitors shipping times, costs, and vendor reliability",
+    "tags": [
+      "supply chain",
+      "logistics",
+      "efficiency"
+    ],
+    "url": "https://tableau.company.com/views/supply"
+  },
+  {
+    "id": "dashboard_011",
+    "name": "Operational Risk Management",
+    "description": "Tracks operational risks and mitigation strategies",
+    "tags": [
+      "risk",
+      "operations",
+      "management"
+    ],
+    "url": "https://tableau.company.com/views/risk"
+  },
+  {
+    "id": "dashboard_012",
+    "name": "IT System Performance",
+    "description": "Monitors uptime, response times, and incidents",
+    "tags": [
+      "it",
+      "performance",
+      "uptime"
+    ],
+    "url": "https://tableau.company.com/views/it"
+  },
+  {
+    "id": "dashboard_013",
+    "name": "Project Management Dashboard",
+    "description": "Tracks project timelines, budgets, and deliverables",
+    "tags": [
+      "project",
+      "management",
+      "tasks"
+    ],
+    "url": "https://tableau.company.com/views/projects"
+  },
+  {
+    "id": "dashboard_014",
+    "name": "Retail Store Performance",
+    "description": "Monitors store sales, footfall, and conversion rates",
+    "tags": [
+      "retail",
+      "sales",
+      "store"
+    ],
+    "url": "https://tableau.company.com/views/retail"
+  },
+  {
+    "id": "dashboard_015",
+    "name": "Energy Consumption Analysis",
+    "description": "Analyzes power usage trends and cost-saving opportunities",
+    "tags": [
+      "energy",
+      "consumption",
+      "sustainability"
+    ],
+    "url": "https://tableau.company.com/views/energy"
+  }
+]

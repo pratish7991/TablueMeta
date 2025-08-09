@@ -1,0 +1,5 @@
+faiss-cpu
+google-genai
+sentence-transformers
+streamlit
+numpy
