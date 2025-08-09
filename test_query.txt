@@ -1,0 +1,30 @@
+📊 Sales & Revenue Related
+
+"Show me the dashboard tracking quarterly sales and profit margin"
+
+"Which dashboard displays regional revenue breakdown and YOY growth?"
+
+🛒 Marketing & Customer Analytics
+3. "Dashboard that monitors customer churn rate and retention KPIs"
+4. "Find the marketing campaign ROI tracker with lead conversion metrics"
+5. "Dashboard showing website traffic, bounce rate, and conversion rate"
+
+🏭 Operations & Supply Chain
+6. "Where can I see real-time inventory levels and stockout alerts?"
+7. "Dashboard for tracking on-time delivery rate and order fulfillment"
+
+📅 Project & Productivity
+8. "Project management dashboard with tasks completed and overdue status"
+9. "Which dashboard measures employee productivity and average task time?"
+
+🏥 Healthcare & Patient Data
+10. "Find the dashboard showing patient wait times and appointment cancellations"
+11. "Healthcare KPIs like bed occupancy rate and readmission rate"
+
+💰 Finance & Investment
+12. "Portfolio dashboard tracking asset allocation and risk exposure"
+13. "Cash flow dashboard with operating, investing, and financing trends"
+
+⚙️ Manufacturing & Quality
+14. "Dashboard with machine downtime and defect rate KPIs"
+15. "Production dashboard tracking yield rate and cycle time"

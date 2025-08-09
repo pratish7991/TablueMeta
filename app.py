@@ -1,4 +1,3 @@
-# app.py
 import os
 import json
 import faiss
@@ -11,7 +10,7 @@ from google import genai
 EMBEDDINGS_DIR = "embeddings"
 DASHBOARDS_FILE = "dashboards.json"
 
-# Create folder for embeddings if not exists
+# Create folder for embeddings if it doesn't exist
 os.makedirs(EMBEDDINGS_DIR, exist_ok=True)
 
 # ====== LOAD API KEY ======
@@ -25,7 +24,7 @@ client = genai.Client(api_key=API_KEY)
 
 # ====== LOAD DASHBOARD METADATA ======
 if not os.path.exists(DASHBOARDS_FILE):
-    st.error(f"{DASHBOARDS_FILE} file not found! Please create it with dashboard metadata.")
+    st.error(f"{DASHBOARDS_FILE} not found. Please create it with dashboard metadata.")
     st.stop()
 
 with open(DASHBOARDS_FILE, "r") as f:
@@ -41,7 +40,12 @@ def get_embedding(text: str):
 
 # ====== GENERATE EMBEDDINGS ======
 def generate_embeddings():
-    texts = [f"{d['name']} - {' '.join(d['tags'])} - {d['description']}" for d in dashboards]
+    texts = []
+    for d in dashboards:
+        kpi_texts = [f"{kpi['name']} - {kpi['description']}" for kpi in d.get("kpis", [])]
+        combined_text = f"{d['name']} - {' '.join(d['tags'])} - {d['description']} - {' '.join(kpi_texts)}"
+        texts.append(combined_text)
+
     first_emb = get_embedding(texts[0])
     dim = len(first_emb)
 
@@ -80,39 +84,40 @@ def search_dashboards(query, top_k=3):
         if idx < len(metadata):
             results.append((metadata[idx], dist))
 
-    # Sort by distance (most similar first)
     results.sort(key=lambda x: x[1])
     return results
 
 # ====== STREAMLIT UI ======
-st.set_page_config(page_title="Tableau Dashboard Search", page_icon="📊", layout="centered")
+st.set_page_config(page_title="Tableau Dashboard Search", layout="centered")
 
-tab1, tab2 = st.tabs(["📥 Generate Embeddings", "🔍 Search Dashboards"])
+tab1, tab2 = st.tabs(["Generate Embeddings", "Search Dashboards"])
 
 with tab1:
-    st.header("Generate & Store Embeddings")
+    st.header("Generate and Store Embeddings")
     if st.button("Generate Embeddings"):
         with st.spinner("Generating embeddings..."):
             success = generate_embeddings()
         if success:
-            st.success("✅ Embeddings generated and stored successfully!")
+            st.success("Embeddings generated and stored successfully.")
 
 with tab2:
     st.header("Search Dashboards")
-    query = st.text_input("Enter your search query")
+    query = st.text_input("Enter search query (dashboard name, description, KPI name, KPI description, etc.)")
     top_k = st.number_input("Number of top results to return", min_value=1, max_value=20, value=3, step=1)
     if st.button("Search"):
         if query.strip():
             with st.spinner("Searching..."):
                 results = search_dashboards(query, top_k=top_k)
             if results:
-                st.subheader("Results:")
+                st.subheader("Results")
                 for meta, dist in results:
                     st.markdown(f"""
                         **[{meta['name']}]({meta['url']})**  
                         {meta['description']}  
-                        `Tags:` {', '.join(meta['tags'])}  
-                        _Distance: {dist:.4f}_
+                        Tags: {', '.join(meta['tags'])}  
+                        **KPIs:**  
+                        {"".join([f"- {k['name']}: {k['description']}  \n" for k in meta.get('kpis', [])])}
+                        Distance: {dist:.4f}
                     """)
             else:
                 st.warning("No results found.")
