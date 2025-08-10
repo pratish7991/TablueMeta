@@ -126,4 +126,4 @@ if __name__ == "__main__":
     output_file = os.path.join(pdfs_dir, "dashboards.json")
     with open(output_file, "w") as f:
         json.dump(dashboards, f, indent=2)
-    print(f"✅ Combined metadata for ALL workbooks saved to {output_file}")
+    print(f" Combined metadata for ALL workbooks saved to {output_file}")
