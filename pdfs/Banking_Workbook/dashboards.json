@@ -1,0 +1,41 @@
+[
+  {
+    "id": "banking_workbook_banking_demo",
+    "name": "Advisor Performance",
+    "description": "This dashboard displays the performance of financial advisors, focusing on key metrics such as assets under management, number of assets and clients, pipeline duration, and time spent in each stage of the client onboarding process.",
+    "tags": [
+      "banking",
+      "finance",
+      "advisor",
+      "performance",
+      "wealth"
+    ],
+    "url": "pdfs/Banking_Workbook/Banking Demo.pdf",
+    "kpis": [
+      {
+        "name": "Assets Under Management",
+        "description": "Total assets under management for Bernelle Weatherhead, amounting to \u00a36.2M."
+      },
+      {
+        "name": "Number of Assets",
+        "description": "The total number of assets managed by Bernelle Weatherhead is 18."
+      },
+      {
+        "name": "Number of Clients",
+        "description": "Bernelle Weatherhead manages 11 clients."
+      },
+      {
+        "name": "Average Pipeline Duration",
+        "description": "The average time an asset spends in the pipeline for Bernelle Weatherhead is 39 days."
+      },
+      {
+        "name": "Average Time in Stage",
+        "description": "The average time spent in each stage of the client onboarding process for Bernelle Weatherhead is 7.5 days."
+      },
+      {
+        "name": "SLA Completion",
+        "description": "The Service Level Agreement (SLA) completion rate is 84.6%, with 15.4% incomplete."
+      }
+    ]
+  }
+]

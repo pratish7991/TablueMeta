@@ -4,3 +4,6 @@ sentence-transformers
 streamlit
 numpy
 python-dotenv
+pymupdf
+pytesseract
+Pillow

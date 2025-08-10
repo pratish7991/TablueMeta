@@ -1,0 +1,138 @@
+[
+  {
+    "id": "banking_workbook_banking_demo",
+    "name": "Advisor Performance",
+    "description": "This dashboard displays the performance of financial advisors, focusing on key metrics such as assets under management, number of assets and clients, pipeline duration, and time spent in different stages of the client onboarding process.",
+    "tags": [
+      "banking",
+      "finance",
+      "advisor",
+      "performance",
+      "assets",
+      "clients",
+      "pipeline"
+    ],
+    "url": "Banking_Workbook/Banking Demo.pdf",
+    "kpis": [
+      {
+        "name": "Assets Under Management",
+        "description": "Total assets under management for Bernelle Weatherhead, totaling \u00a36.2M."
+      },
+      {
+        "name": "Number of Assets",
+        "description": "Total number of assets managed by Bernelle Weatherhead, amounting to 18."
+      },
+      {
+        "name": "Number of Clients",
+        "description": "Total number of clients managed by Bernelle Weatherhead, which is 11."
+      },
+      {
+        "name": "Average Pipeline Duration",
+        "description": "Average time an asset spends in the pipeline for Bernelle Weatherhead, currently at 39.3 days."
+      },
+      {
+        "name": "Average Time in Stage",
+        "description": "Average time spent in each stage of the client onboarding process for Bernelle Weatherhead is 7.5 days.  The average time across all stages is 7.5 days, compared to an overall average of 7.9 days."
+      },
+      {
+        "name": "SLA Completion",
+        "description": "Percentage of Service Level Agreements completed, showing 84.6% complete and 15.4% incomplete."
+      }
+    ]
+  },
+  {
+    "id": "finance_workbook_banking_demo",
+    "name": "Advisor Performance",
+    "description": "This dashboard displays the performance of financial advisors, focusing on key metrics such as assets under management, number of assets and clients, pipeline duration, and time spent in various stages of the client onboarding process.",
+    "tags": [
+      "finance",
+      "banking",
+      "advisor",
+      "performance",
+      "assets",
+      "clients",
+      "pipeline"
+    ],
+    "url": "Finance_Workbook/Banking Demo.pdf",
+    "kpis": [
+      {
+        "name": "Assets Under Management",
+        "description": "Total assets under management for Bernelle Weatherhead, amounting to \u00a36.2M."
+      },
+      {
+        "name": "Number of Assets",
+        "description": "Total number of assets managed by Bernelle Weatherhead, totaling 18."
+      },
+      {
+        "name": "Number of Clients",
+        "description": "Total number of clients managed by Bernelle Weatherhead, totaling 11."
+      },
+      {
+        "name": "Average Pipeline Duration",
+        "description": "Average duration of assets in the pipeline for Bernelle Weatherhead, which is 39 days."
+      },
+      {
+        "name": "Average Time in Stage",
+        "description": "Average time spent in each stage of the client onboarding process for Bernelle Weatherhead, averaging 7.5 days.  The average time across all stages is 7.5 days, with individual stage averages ranging from 5.5 to 8.1 days."
+      },
+      {
+        "name": "SLA Completion",
+        "description": "Service Level Agreement (SLA) completion rate, showing 84.6% complete and 15.4% incomplete."
+      }
+    ]
+  },
+  {
+    "id": "finance_workbook_finance_overview",
+    "name": "ABC Corp Finance Dashboard",
+    "description": "This dashboard provides a financial overview of ABC Corp, showing key performance indicators (KPIs) such as sales, profit margin, and discounts across different segments and regions.",
+    "tags": [
+      "finance",
+      "profit",
+      "sales",
+      "discount"
+    ],
+    "url": "Finance_Workbook/Finance Overview.pdf",
+    "kpis": [
+      {
+        "name": "Profit Margin %",
+        "description": "The profit margin percentage, showing profitability. Values range from 7% to 22% across different months."
+      },
+      {
+        "name": "Sales Growth",
+        "description": "Percentage increase in sales compared to the previous year (10%)."
+      },
+      {
+        "name": "Sales",
+        "description": "Total sales revenue for the period (143,796)."
+      },
+      {
+        "name": "Discount %",
+        "description": "Overall discount percentage applied to sales (21%)."
+      },
+      {
+        "name": "Discount $",
+        "description": "Overall discount amount in dollars (198,837)."
+      },
+      {
+        "name": "Ach %",
+        "description": "Achievement percentage against the target (109%)."
+      },
+      {
+        "name": "Target",
+        "description": "Target sales value (131,514)."
+      },
+      {
+        "name": "Current Profit Margin",
+        "description": "Current profit margin percentage (-35%)."
+      },
+      {
+        "name": "Profit Growth",
+        "description": "Percentage change in profit compared to the previous period (-6%)."
+      },
+      {
+        "name": "Profit $",
+        "description": "Total profit in dollars (15,824)."
+      }
+    ]
+  }
+]

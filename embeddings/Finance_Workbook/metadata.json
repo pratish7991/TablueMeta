@@ -1,0 +1,92 @@
+[
+  {
+    "id": "finance_workbook_banking_demo",
+    "name": "Advisor Performance",
+    "description": "This dashboard displays the performance of financial advisors, showing key metrics such as assets under management, number of assets and clients, average pipeline duration, and average time in stage.",
+    "tags": [
+      "finance",
+      "banking",
+      "advisor",
+      "performance",
+      "assets",
+      "clients"
+    ],
+    "url": "Finance_Workbook/Banking Demo.pdf",
+    "kpis": [
+      {
+        "name": "Assets Under Management",
+        "description": "Total assets under management for Bernelle Weatherhead (6.2M)"
+      },
+      {
+        "name": "Number of Assets",
+        "description": "Total number of assets managed by Bernelle Weatherhead (18)"
+      },
+      {
+        "name": "Number of Clients",
+        "description": "Total number of clients managed by Bernelle Weatherhead (11)"
+      },
+      {
+        "name": "Average Pipeline Duration",
+        "description": "Average duration of assets in the pipeline for Bernelle Weatherhead (39 days)"
+      },
+      {
+        "name": "Average Time in Stage",
+        "description": "Average time spent in each stage of the pipeline for Bernelle Weatherhead (7.5 days)"
+      },
+      {
+        "name": "SLA Completion",
+        "description": "Percentage of SLA's completed; Incomplete (15.4%), Complete (84.6%)"
+      }
+    ]
+  },
+  {
+    "id": "finance_workbook_finance_overview",
+    "name": "ABC Corp Finance Dashboard",
+    "description": "This dashboard provides a financial overview of ABC Corp, showing key performance indicators (KPIs) such as sales, profit margin, and discounts across different segments and regions.",
+    "tags": [
+      "finance",
+      "profit",
+      "sales",
+      "discount"
+    ],
+    "url": "Finance_Workbook/Finance Overview.pdf",
+    "kpis": [
+      {
+        "name": "Profit Margin %",
+        "description": "Current profit margin (-35%)"
+      },
+      {
+        "name": "Profit Growth",
+        "description": "Percentage change in profit (-6%)"
+      },
+      {
+        "name": "Profit $",
+        "description": "Total profit in dollars (15,824)"
+      },
+      {
+        "name": "Sales Growth",
+        "description": "Percentage change in sales (10%)"
+      },
+      {
+        "name": "Sales",
+        "description": "Total sales in dollars (143,796)"
+      },
+      {
+        "name": "Discount %",
+        "description": "Overall discount percentage (21%)"
+      },
+      {
+        "name": "Discount $",
+        "description": "Overall discount in dollars (198,837)"
+      },
+      {
+        "name": "Ach %",
+        "description": "Achievement percentage (109%)"
+      },
+      {
+        "name": "Target",
+        "description": "Target sales in dollars (131,514)"
+      }
+    ]
+  }
+]
