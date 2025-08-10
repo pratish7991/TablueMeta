@@ -2,82 +2,39 @@
   {
     "id": "banking_workbook_banking_demo",
     "name": "Advisor Performance",
-    "description": "This dashboard displays the performance of financial advisors, focusing on key metrics such as assets under management, number of assets and clients, pipeline duration, and time spent in different stages of the client onboarding process.",
+    "description": "This dashboard displays the performance of financial advisors, showing key metrics such as assets under management, number of assets and clients, pipeline duration, and time in stage.  It also highlights at-risk assets.",
     "tags": [
       "banking",
       "finance",
       "advisor",
       "performance",
-      "assets",
-      "clients",
-      "pipeline"
+      "wealth"
     ],
     "url": "Banking_Workbook/Banking Demo.pdf",
     "kpis": [
       {
         "name": "Assets Under Management",
-        "description": "Total assets under management for Bernelle Weatherhead, totaling \u00a36.2M."
+        "description": "Total assets under management for the selected advisor, Bernelle Weatherhead;  \u00a36.2M"
       },
       {
         "name": "Number of Assets",
-        "description": "Total number of assets managed by Bernelle Weatherhead, amounting to 18."
+        "description": "Total number of assets managed by Bernelle Weatherhead; 18"
       },
       {
         "name": "Number of Clients",
-        "description": "Total number of clients managed by Bernelle Weatherhead, which is 11."
+        "description": "Total number of clients for Bernelle Weatherhead; 11"
       },
       {
         "name": "Average Pipeline Duration",
-        "description": "Average time an asset spends in the pipeline for Bernelle Weatherhead, currently at 39.3 days."
+        "description": "Average duration of assets in the pipeline for Bernelle Weatherhead; 39.3 days"
       },
       {
         "name": "Average Time in Stage",
-        "description": "Average time spent in each stage of the client onboarding process for Bernelle Weatherhead is 7.5 days.  The average time across all stages is 7.5 days, compared to an overall average of 7.9 days."
+        "description": "Average time spent in each stage of the pipeline for Bernelle Weatherhead; 7.5 days"
       },
       {
         "name": "SLA Completion",
-        "description": "Percentage of Service Level Agreements completed, showing 84.6% complete and 15.4% incomplete."
-      }
-    ]
-  },
-  {
-    "id": "finance_workbook_banking_demo",
-    "name": "Advisor Performance",
-    "description": "This dashboard displays the performance of financial advisors, focusing on key metrics such as assets under management, number of assets and clients, pipeline duration, and time spent in various stages of the client onboarding process.",
-    "tags": [
-      "finance",
-      "banking",
-      "advisor",
-      "performance",
-      "assets",
-      "clients",
-      "pipeline"
-    ],
-    "url": "Finance_Workbook/Banking Demo.pdf",
-    "kpis": [
-      {
-        "name": "Assets Under Management",
-        "description": "Total assets under management for Bernelle Weatherhead, amounting to \u00a36.2M."
-      },
-      {
-        "name": "Number of Assets",
-        "description": "Total number of assets managed by Bernelle Weatherhead, totaling 18."
-      },
-      {
-        "name": "Number of Clients",
-        "description": "Total number of clients managed by Bernelle Weatherhead, totaling 11."
-      },
-      {
-        "name": "Average Pipeline Duration",
-        "description": "Average duration of assets in the pipeline for Bernelle Weatherhead, which is 39 days."
-      },
-      {
-        "name": "Average Time in Stage",
-        "description": "Average time spent in each stage of the client onboarding process for Bernelle Weatherhead, averaging 7.5 days.  The average time across all stages is 7.5 days, with individual stage averages ranging from 5.5 to 8.1 days."
-      },
-      {
-        "name": "SLA Completion",
-        "description": "Service Level Agreement (SLA) completion rate, showing 84.6% complete and 15.4% incomplete."
+        "description": "Percentage of Service Level Agreements (SLAs) completed; 84.6% complete, 15.4% incomplete."
       }
     ]
   },
@@ -89,49 +46,136 @@
       "finance",
       "profit",
       "sales",
-      "discount"
+      "discount",
+      "KPI"
     ],
     "url": "Finance_Workbook/Finance Overview.pdf",
     "kpis": [
       {
         "name": "Profit Margin %",
-        "description": "The profit margin percentage, showing profitability. Values range from 7% to 22% across different months."
-      },
-      {
-        "name": "Sales Growth",
-        "description": "Percentage increase in sales compared to the previous year (10%)."
-      },
-      {
-        "name": "Sales",
-        "description": "Total sales revenue for the period (143,796)."
-      },
-      {
-        "name": "Discount %",
-        "description": "Overall discount percentage applied to sales (21%)."
-      },
-      {
-        "name": "Discount $",
-        "description": "Overall discount amount in dollars (198,837)."
-      },
-      {
-        "name": "Ach %",
-        "description": "Achievement percentage against the target (109%)."
-      },
-      {
-        "name": "Target",
-        "description": "Target sales value (131,514)."
-      },
-      {
-        "name": "Current Profit Margin",
-        "description": "Current profit margin percentage (-35%)."
+        "description": "The current profit margin is -35%."
       },
       {
         "name": "Profit Growth",
-        "description": "Percentage change in profit compared to the previous period (-6%)."
+        "description": "Profit growth is -6%."
       },
       {
         "name": "Profit $",
-        "description": "Total profit in dollars (15,824)."
+        "description": "Total profit in dollars is 15,824."
+      },
+      {
+        "name": "Sales Growth",
+        "description": "Sales growth is 10%."
+      },
+      {
+        "name": "Sales",
+        "description": "Total sales are 143,796."
+      },
+      {
+        "name": "Discount %",
+        "description": "Overall discount percentage is 21%."
+      },
+      {
+        "name": "Discount $",
+        "description": "Overall discount in dollars is 198,837."
+      },
+      {
+        "name": "Ach %",
+        "description": "Achievement percentage is 109%."
+      },
+      {
+        "name": "Target",
+        "description": "The sales target was 131,514."
+      }
+    ]
+  },
+  {
+    "id": "hrattrition_workbok_hrattrition",
+    "name": "HR Attrition Dashboard",
+    "description": "This dashboard visualizes HR attrition data, providing insights into attrition rates, employee satisfaction, and demographics to identify contributing factors.",
+    "tags": [
+      "HR",
+      "attrition",
+      "employee satisfaction",
+      "demographics"
+    ],
+    "url": "HRAttrition_Workbok/HRAttrition.pdf",
+    "kpis": [
+      {
+        "name": "Total Attrition",
+        "description": "The total number of employees who have left the company (1,233)"
+      },
+      {
+        "name": "Attrition Rate",
+        "description": "The percentage of employees who left the company, relative to total employees (16.1%)"
+      },
+      {
+        "name": "Staff Satisfaction",
+        "description": "Average staff satisfaction score on a scale (2.8 / 4.0)"
+      }
+    ]
+  },
+  {
+    "id": "retail_workbook_sales_leadership_dashboard",
+    "name": "Sales Leadership Dashboard",
+    "description": "This dashboard provides a regional overview of sales performance, including key metrics such as year-over-year (YoY) sales by department and average customer spend.",
+    "tags": [
+      "sales",
+      "regional",
+      "performance",
+      "finance"
+    ],
+    "url": "Retail_Workbook/Sales Leadership Dashboard.pdf",
+    "kpis": [
+      {
+        "name": "YoY Sales By Department",
+        "description": "Average customer spending over time, showing values for each month across different regions.  For example, in the West region, average spending ranged from approximately $663 to $760."
+      },
+      {
+        "name": "Average Customer Spend By Region",
+        "description": "Average customer spending per region, showing monthly sales data. For instance, the West region shows sales ranging from approximately $0.59M to $1.65M over the year."
+      },
+      {
+        "name": "Product Performance (Top 5 Products) By Region",
+        "description": "Sales performance of top 5 products across regions, shown for 2013 and 2014. Sales values range from roughly $1.08M to $5.00M."
+      }
+    ]
+  },
+  {
+    "id": "toystore_workbook_overview_dashboard",
+    "name": "October 2022 Toy Store Sales Overview",
+    "description": "This dashboard provides a high-level overview of October 2022 sales performance for the toy store, including key metrics such as total sales, cost of goods sold, profit margin, and profit, broken down by category and location.",
+    "tags": [
+      "sales",
+      "finance",
+      "profit",
+      "dashboard"
+    ],
+    "url": "ToyStore_Workbook/Overview Dashboard.pdf",
+    "kpis": [
+      {
+        "name": "Sales",
+        "description": "Total sales for October 2022, showing a 16.38% increase compared to the previous month.  ($130,659)"
+      },
+      {
+        "name": "Cost of Goods Sold (COGS)",
+        "description": "Total cost of goods sold for October 2022, showing a 16.85% increase compared to the previous month. ($93,592)"
+      },
+      {
+        "name": "Profit Margin",
+        "description": "Overall profit margin for October 2022, showing a decrease of 0.29% compared to the previous month. (28.37%)"
+      },
+      {
+        "name": "Profit",
+        "description": "Total profit for October 2022, showing a 15.21% increase compared to the previous month. ($37,067)"
+      },
+      {
+        "name": "Average Daily Sales",
+        "description": "Average daily sales for October 2022. ($4,215)"
+      },
+      {
+        "name": "Average Daily Profit",
+        "description": "Average daily profit for October 2022. ($1,195.71)"
       }
     ]
   }

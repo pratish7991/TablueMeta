@@ -40,19 +40,12 @@ project/
 ├── app.py                              # Main Streamlit application
 ├── extract_metadata_from_pdf_llm.py    # PDF text extraction & Gemini metadata generation
 ├── pdfs/                               # Stores all workbooks & their PDFs
-│   ├── Banking_Workbook/
-│   │   ├── Banking Demo.pdf
+│   ├── {Woorkbook Name}/
+│   │   ├── {Dashboard Name}.pdf
 │   │   └── dashboards.json
-│   └── Finance_Workbook/
-│       ├── Finance Overview.pdf
-│       ├── Banking Demo.pdf
-│       └── dashboards.json
 │
 ├── embeddings/                         # Stores FAISS index & metadata.json per workbook
-│   ├── Banking_Workbook/
-│   │   ├── dashboards.index
-│   │   └── metadata.json
-│   ├── Finance_Workbook/
+│   ├── {Woorkbook Name}/
 │   │   ├── dashboards.index
 │   │   └── metadata.json
 │   └── All/                            # "All at Once" global index
@@ -127,11 +120,10 @@ streamlit run app.py
 
 ##  Example Queries
 ```
-"Quarterly profit margin analysis"
-"Dashboards showing revenue and discount trends"
-"KPI overview for project management"
-"Customer churn and retention performance"
-"Finance dashboards with sales target achievement"
+"Financial advisor performance with assets under management"
+"Employee attrition rate and satisfaction analysis"
+"Year-over-year retail sales by department"
+"October 2022 toy store profit and daily sales"
 ```
 
 ---
